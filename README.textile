@@ -1,0 +1,12 @@
+h1. This is the source code of my portfolio
+
+This website is still under construction. Come back in the future for the real deal. 
+
+h1. License
+
+The following directories and their contents are Copyright Zoe Ouyang. You may not reuse anything therein without my permission:
+
+* _posts/
+* projects/
+
+All other directories and files are MIT Licensed.
