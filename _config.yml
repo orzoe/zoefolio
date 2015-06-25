@@ -1,12 +1,17 @@
 # Site settings
 title: zoefolio
 email: orz.zoe@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Zoe Ouyang's work portfolio.
-baseurl: "/zoefolio" # the subpath of your site, e.g. /blog/
-url: "http://orzoe.github.io/zoefolio" # the base hostname & protocol for your site
 twitter_username: orzoe
 github_username:  orzoe
+description: Zoe Ouyang's work portfolio.
+
+# URL settings
+baseurl: "/zoefolio" # the subpath of your site, e.g. /blog/
+url: "http://orzoe.github.io/zoefolio" # the base hostname & protocol for your site
+permalink: pretty
+
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+exclude: ['Gemfile', 'Gemfile.lock', '.gitignore', 'README.textile']
