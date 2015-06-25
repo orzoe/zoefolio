@@ -1,6 +1,6 @@
-h1. This is the source code of my portfolio
+h1. Under Construction
 
-This website is still under construction. Come back in the future for the real deal. 
+I'm building a new portfolio site for myself and this is the source code. It is still a work in progress. Come back in the future for the real thing. 
 
 h1. License
 
