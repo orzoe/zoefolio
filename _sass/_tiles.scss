@@ -1,0 +1,39 @@
+.tiles { 
+	@extend .list-unstyled;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	margin: -20px 0 0 -20px;
+}
+
+
+.tile { 
+	flex: 0 0 33.3222%;
+	padding: 20px 0 0 20px;
+	box-sizing: padding-box;
+}
+
+.tile-link {
+	display: block;
+	color: inherit;
+	box-shadow: 0 0 2px rgba(0,0,0,.3);
+	&:hover, 
+	&:focus { 
+		color: inherit;
+		box-shadow: 0 0 10px rgba(0,0,0,.5);
+	}
+}
+
+.tile img { 
+	margin-bottom: 20px;
+}
+.tile h3 { 
+	font-size: $font-size-base;
+	margin: 0;
+	padding: 0 10px 10px;
+}
+.tile p { 
+	color: $muted-text-color;
+	font-size: $font-size-small;
+	padding: 0 10px 10px;
+}

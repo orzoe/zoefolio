@@ -1,15 +1,22 @@
 ---
-layout: default
+layout: page
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+{{ content }}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+<aside> 
+	<ul class="list-unstyled">
+		<li>
+			<label>Timeline</label>
+			{{post.project-timeline}}
+		</li>
+		<li>
+			<label>Methods & Deliverables</label>
+			{{post.project-deliverables}}
+		</li>
+		<li>
+			<label>Coded with</label>
+			{{post.project-code}}
+		</li>		
+	</ul>
+</aside>

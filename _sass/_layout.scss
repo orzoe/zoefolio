@@ -33,7 +33,6 @@
 
     .page-link {
         color: $text-color;
-        line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -179,7 +178,7 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: $font-size-small;
     color: $grey-color;
 }
 

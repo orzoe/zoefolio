@@ -3,12 +3,12 @@ title: zoefolio
 email: orz.zoe@gmail.com
 twitter_username: orzoe
 github_username:  orzoe
-description: Zoe Ouyang's work portfolio.
+description: Zoe Ouyang's design portfolio.
 
 # URL settings
 baseurl: "/zoefolio" # the subpath of your site, e.g. /blog/
 url: "http://orzoe.github.io/zoefolio" # the base hostname & protocol for your site
-permalink: pretty
+permalink: none
 
 
 # Build settings

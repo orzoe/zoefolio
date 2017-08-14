@@ -1,0 +1,51 @@
+.resume h1 { 
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.resume h2 { 
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 48px;
+	margin-bottom: 16px;
+}
+
+.resume h3 { 
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 4px;
+}
+
+.resume .date { 
+	color: $muted-text-color;
+	font-size: 14px; 
+	margin-bottom: 8px;
+}
+span.date { 
+	padding-left: 4px;
+}
+
+.resume .entry { 
+	margin-bottom: 24px;
+}
+
+.resume .list-paragraph { 
+	margin-bottom: 0;
+}
+.resume .list-paragraph li { 
+	margin-bottom: 8px;
+}
+
+.resume strong { 
+	font-weight: 600;
+}
+
+
+
+.resume p { 
+	margin-bottom: 8px;
+}
