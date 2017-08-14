@@ -5,12 +5,12 @@
 }
 
 .site-title {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1;
     font-weight: 700; 
     letter-spacing: -1px;
     text-align: center;
-    margin-top: 72px;
+    margin-top: 80px;
     margin-bottom: 24px;
 }
 .site-title a {
@@ -19,7 +19,7 @@
 
 .site-nav {
     text-align: center;
-    margin-bottom: 72px;
+    margin-bottom: 80px;
 }
 .site-nav a { 
     margin: 0 20px;
@@ -34,68 +34,17 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    margin-top: 40px;
+    padding-bottom: 40px;
+
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
+.footer-content { 
+    border-top: 1px solid #ddd;
+    padding-top: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: $muted-text-color;   
 }
 
 

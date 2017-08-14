@@ -10,6 +10,10 @@
 	margin: 16px auto;
 }
 
+.resume .entry { 
+	margin-bottom: 32px;
+}
+
 .resume h3 { 
 	font-size: 18px;
 	line-height: 24px;
@@ -26,8 +30,8 @@ span.date {
 	padding-left: 4px;
 }
 
-.resume .entry { 
-	margin-bottom: 24px;
+.resume p { 
+	margin-bottom: 8px;
 }
 
 .resume .list-paragraph { 
@@ -39,10 +43,4 @@ span.date {
 
 .resume strong { 
 	font-weight: 600;
-}
-
-
-
-.resume p { 
-	margin-bottom: 8px;
 }
