@@ -15,9 +15,6 @@ h1, h2, h3, h4, h5, h6,
   font-weight: $headings-font-weight;
   line-height: $headings-line-height;
 
-  margin-top:     $margin-vertical;
-  margin-bottom:  $margin-vertical;
-
   small,
   .small {
     font-weight: $font-weight-base;
@@ -37,12 +34,16 @@ h6, .h6 { font-size: $font-size-h6; }
 // -------------------------
 
 p {
-  margin: 0 0 $margin-vertical;
+  margin: 0 auto $paragraph-margin;
 }
 
 
 // Emphasis, Text Transform, and Alignment
 // -------------------------
+
+strong { 
+  font-weight: $font-weight-strong;
+}
 
 small,
 .small {
@@ -67,6 +68,7 @@ small,
 }
 
 
+
 // Lists
 // -------------------------
 
@@ -74,11 +76,17 @@ small,
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: $margin-vertical;
+  margin-bottom: $paragraph-margin;
+  padding: 0;
   ul,
   ol {
     margin-bottom: 0;
   }
+}
+
+li { 
+  margin-left: $paragraph-margin * 2;
+  margin-bottom: $spacing-base;
 }
 
 // List options
@@ -109,7 +117,7 @@ ol {
 // Description Lists
 dl {
   margin-top: 0; // Remove browser default
-  margin-bottom: $margin-vertical;
+  margin-bottom: $paragraph-margin;
 }
 dt,
 dd {
@@ -167,8 +175,8 @@ abbr[title] {
 // Blockquotes
 blockquote {
   padding: ($line-height-computed / 2) $line-height-computed;
-  margin: 0 0 $margin-vertical;
-  border-left: 5px solid $blockquote-border-color;
+  margin: 0 0 $paragraph-margin;
+  border-left: 4px solid $blockquote-border-color;
 
   p,
   ul,
@@ -191,9 +199,9 @@ blockquote {
 
 // Addresses
 address {
-  margin-bottom: $margin-vertical;
   font-style: normal;
   line-height: $line-height-base;
+  margin-bottom: $paragraph-margin;
 }
 
 
